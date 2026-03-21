@@ -22,7 +22,7 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://riyaupdates")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/riyaupdates")
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/riya_chat_support")
 
         self.API_URL = getenv("API_URL", "https://api.fallenapi.fun")
