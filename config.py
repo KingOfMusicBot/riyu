@@ -22,11 +22,11 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/fallenx")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://riyaupdates")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/riya_chat_support")
 
         self.API_URL = getenv("API_URL", "https://api.fallenapi.fun")
-        self.API_KEY = getenv("API_KEY", None) # Get this value from @FallenApiBot by sending /apikey
+        self.API_KEY = getenv("API_KEY", "1b0226_8HgMj_QndY0bjvaAS-Vyy_DW1GlSfr1E") # Get this value from @FallenApiBot by sending /apikey
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
